@@ -5,6 +5,7 @@ const removeFromArray = function(array) {
         for (const argItem of arguments) {
             if (arrItem === argItem) {
                 same = true;
+                break;
             }
         }
         if (same === false) {
